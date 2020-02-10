@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  width: 120px;
+}
+
+.button {
+  font-size: 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 4px;
+  text-transform: uppercase;
+  background: #1ab188;
+  color: #fff;
+}
+
+.button:hover {
+  background: #fff;
+  color: #1ab188;
+  cursor: pointer;
+}

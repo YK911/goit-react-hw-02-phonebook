@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+}
+
+.listItem {
+  position: relative;
+  width: 260px;
+  height: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.listItem::before {
+  position: absolute;
+  content: "";
+  left: -30px;
+  top: 2px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(./address-book-solid.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

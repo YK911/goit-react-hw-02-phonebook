@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(27, 27, 58);
+}
+
+h2,
+label,
+span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(122, 122, 122);
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.contactApp {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+
+.contactsTitle {
+  margin: 0 0 70px 0;
+}
