@@ -4,7 +4,7 @@
 }
 
 body {
-  background: rgb(27, 27, 58);
+  background: rgb(194, 202, 232);
 }
 
 h2,
@@ -24,9 +24,12 @@ h2 {
 .contactApp {
   position: relative;
   display: block;
-  margin: 0 auto;
   width: 300px;
   height: auto;
+  background: rgb(27, 27, 58);
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
 }
 
 .contactsTitle {
